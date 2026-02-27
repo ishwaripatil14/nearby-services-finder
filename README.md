@@ -157,7 +157,7 @@ This project is a **Nearby Services Finder**.
      - Name, Category (Hospital / ATM / Shop / Others), Rating, Latitude, Longitude.
    - Open the Home and Nearby pages to test markers, filters and radius search.   
 
-
+git commit -m "Resolved README merge conflict"
 ## Sample Services & Test Coordinates
 
 You can use these example services from the **Admin Dashboard**.  
