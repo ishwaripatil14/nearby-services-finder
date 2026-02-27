@@ -1,3 +1,4 @@
+# nearby-services-finder
 # Nearby Services Finder (Full-Stack Geo App)
 
 A complete production-ready full-stack application for finding services like Hospitals, ATMs, and Shops nearby using geographic location.
