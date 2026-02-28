@@ -171,7 +171,105 @@ Use the **same latitude, longitude, category and radius** values on the **Nearby
 | Main Market Superstore  | Mumbai | shop     | 5      | 19.0700   | 72.8700   | 3                      |
 | Sangli Main Road ATM    | Sangli | ATM      | 4      | 16.8540   | 74.5825   | 2                      |
  
+---
+
+## 🔧 Detailed Run Steps (Step-by-Step)
+
+Follow these exact steps to run the full project properly.
+
+---
+
+### 🔹 1️⃣ Backend Run (FastAPI)
+
+Open Terminal / PowerShell:
+
+#### Step 1: Go to backend folder
+
+```bash
+cd backend
+```
+
+#### Step 2: Activate virtual environment
+
+```bash
+.\venv\Scripts\Activate.ps1
+```
+
+#### Step 3: Install all required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+#### Step 4: Start Backend Server
+
+```bash
+uvicorn main:app --reload
+```
+
+✅ Backend will run at:
+```
+http://localhost:8000
+```
+
+📄 API Documentation:
+```
+http://localhost:8000/docs
+```
+
+---
+
+### 🔹 2️⃣ Frontend Run (Next.js)
+
+Open a new terminal window:
+
+#### Step 1: Go to frontend folder
+
+```bash
+cd frontend
+```
+
+#### Step 2: Install Node dependencies (first time only)
+
+```bash
+npm install
+```
+
+#### Step 3: Start Frontend
+
+```bash
+npm run dev
+```
+
+✅ Frontend will run at:
+```
+http://localhost:3000
+```
+
+---
+
+## 📝 Important Notes
+
+- Always start **Backend first**, then start **Frontend**.
+- Make sure PostgreSQL + PostGIS database is running before starting backend.
+- If any dependency error occurs, re-run:
+  ```bash
+  pip install -r requirements.txt
+  ```
+  or
+  ```bash
+  npm install
+  ```
+
+---
+
+## ✅ Final Check
+
+After both servers are running:
+
+- Open `http://localhost:3000`
+- Login as Admin
+- Add services
+- Test Nearby search with sample coordinates
 
 
-
-# project-pyth
